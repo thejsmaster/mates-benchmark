@@ -1,0 +1,107 @@
+.css-demo {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.css-demo h1 {
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+.css-demo p.subtitle {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.css-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.css-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.css-card {
+  padding: 1.5rem;
+}
+.css-card h3 {
+  color: #0070f3;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+.css-card p {
+  color: #374151;
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+.css-card code {
+  background: #f3f4f6;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #0051b3;
+}
+
+.swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.swatch {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.swatch__color {
+  height: 48px;
+}
+.swatch__label {
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  color: #374151;
+}
+.swatch--primary .swatch__color {
+  background-color: #0070f3;
+}
+.swatch--danger .swatch__color {
+  background-color: #ef4444;
+}
+.swatch--success .swatch__color {
+  background-color: #22c55e;
+}
+.swatch--warning .swatch__color {
+  background-color: #f59e0b;
+}
+.swatch--gray .swatch__color {
+  background-color: #6b7280;
+}
+
+.nested-demo {
+  border-left: 3px solid #0070f3;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+.nested-demo .level-1 {
+  color: #111827;
+  font-weight: 600;
+}
+.nested-demo .level-1 .level-2 {
+  color: #374151;
+  font-weight: 400;
+  padding-left: 1rem;
+  border-left: 2px solid #e5e7eb;
+  margin: 0.5rem 0;
+}
+.nested-demo .level-1 .level-2 .level-3 {
+  color: #6b7280;
+  font-style: italic;
+  padding-left: 1rem;
+}

@@ -1,0 +1,67 @@
+/* Component0277.css — benchmark component #277 — unique scoped class names */
+
+.app-277 { max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
+.header-277 h1 { font-size: 2.5rem; font-weight: 800; text-align: center; color: #0f172a; margin-bottom: 1.5rem; }
+.main-277 { /* main wrapper */ }
+
+.add-input-277 {
+  width: 100%; padding: 0.6rem 0.8rem;
+  border: 1px solid #cbd5e1; border-radius: 6px;
+  font-size: 1rem; box-sizing: border-box;
+}
+.add-input--error-277 { border-color: #e74c3c; }
+
+.add-btn-277 {
+  margin-top: 0.5rem; padding: 0.5rem 1.2rem;
+  background: #0f172a; color: white;
+  border: none; border-radius: 6px; cursor: pointer; font-size: 0.95rem;
+}
+
+.field-error-277 { color: #e74c3c; font-size: 0.85rem; margin: 0.25rem 0; }
+
+.filters-277 { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.filter-btn-277 {
+  padding: 0.3rem 0.8rem; border: 1px solid #cbd5e1;
+  border-radius: 999px; background: white; cursor: pointer;
+}
+.filter-btn--active-277 { background: #0f172a; color: white; border-color: #0f172a; }
+
+.todo-list-277 { list-style: none; padding: 0; margin: 0; }
+.todo-item-277 {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.6rem 0; border-bottom: 1px solid #f1f5f9;
+}
+.todo-item--done-277 .todo-text-277 { text-decoration: line-through; opacity: 0.5; }
+
+.todo-check-277 {
+  width: 1.5rem; height: 1.5rem; border: 2px solid #cbd5e1;
+  border-radius: 50%; background: white; cursor: pointer;
+  font-size: 0.8rem; flex-shrink: 0;
+}
+.todo-check--done-277 { background: #0f172a; border-color: #0f172a; color: white; }
+
+.todo-text-277 { flex: 1; cursor: pointer; }
+
+.todo-delete-277 {
+  background: none; border: none; color: #94a3b8;
+  font-size: 1.2rem; cursor: pointer; line-height: 1; padding: 0 0.2rem;
+}
+
+.edit-form-277 { flex: 1; }
+.edit-input-277 {
+  width: 100%; padding: 0.3rem 0.5rem;
+  border: 1px solid #94a3b8; border-radius: 4px;
+  font-size: 1rem; box-sizing: border-box;
+}
+
+.loading-277, .empty-277 { text-align: center; color: #94a3b8; padding: 2rem 0; }
+
+.footer-277 {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0.8rem 0; font-size: 0.85rem; color: #64748b;
+}
+.todo-count-277 { /* item count label */ }
+.clear-btn-277 {
+  background: none; border: none; color: #e74c3c;
+  cursor: pointer; font-size: 0.85rem;
+}
