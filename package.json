@@ -9,8 +9,8 @@
     "start": "mates-fullstack start"
   },
   "dependencies": {
-    "mates": "^0.4.0-beta.2",
-    "mates-fullstack": "^1.0.0-beta.1",
+    "mates": "^0.4.0-beta.1",
+    "mates-fullstack": "^1.0.0-beta.2",
     "sss": "^0.1.1"
   },
   "devDependencies": {
