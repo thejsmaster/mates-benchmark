@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "mates": "^0.4.0-beta.1",
-    "mates-fullstack": "^1.0.0-beta.4",
+    "mates-fullstack": "^1.0.0-beta.5",
     "sss": "^0.1.1"
   },
   "devDependencies": {
